@@ -378,9 +378,9 @@
           <GroupName>Source Group 1</GroupName>
           <Files>
             <File>
-              <FileName>maa.c</FileName>
+              <FileName>main.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\maa.c</FilePath>
+              <FilePath>.\main.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -411,7 +411,7 @@
       </component>
     </components>
     <files>
-      <file attr="config" category="sourceAsm" condition="Compiler ARMCC" name="Device\Source\ARM\startup_LPC11xx.s" version="0.0.0">
+      <file attr="config" category="sourceAsm" condition="Compiler ARMCC" name="Device\Source\ARM\startup_LPC11xx.s" version="1.0.0">
         <instance index="0">RTE\Device\LPC1114FBD48_301\startup_LPC11xx.s</instance>
         <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="1.0.0" condition="LPC11xx_Cxx CMSIS"/>
         <package name="LPC1100_DFP" schemaVersion="1.2" url="http://www.keil.com/pack/" vendor="Keil" version="1.4.0"/>
@@ -419,7 +419,7 @@
           <targetInfo name="Target 1"/>
         </targetInfos>
       </file>
-      <file attr="config" category="sourceC" name="Device\Source\system_LPC11xx.c" version="0.0.0">
+      <file attr="config" category="sourceC" name="Device\Source\system_LPC11xx.c" version="1.0.0">
         <instance index="0">RTE\Device\LPC1114FBD48_301\system_LPC11xx.c</instance>
         <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="1.0.0" condition="LPC11xx_Cxx CMSIS"/>
         <package name="LPC1100_DFP" schemaVersion="1.2" url="http://www.keil.com/pack/" vendor="Keil" version="1.4.0"/>
