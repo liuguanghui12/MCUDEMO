@@ -1,0 +1,6 @@
+-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\src
+-I "C:\Users\apple 1\Desktop\新建文件夹 (2)\finalproject\out\RTE"
+-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx
+-D__UVISION_VERSION="520" -D_RTE_
+-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d "..\src\Systick.c"
